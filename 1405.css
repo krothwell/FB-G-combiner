@@ -1,0 +1,21 @@
+/* minor tweaks to careers and contact form */
+
+.careersBox li{
+    margin-left: 0;
+    width:40%;
+}
+
+.careersBox span{
+    padding-left: 0;
+    padding-top: 1em; 
+}
+
+label{
+    margin-left:0;
+}
+
+
+.textIn, #message{
+    width:100%;
+}
+

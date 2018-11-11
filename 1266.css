@@ -1,0 +1,29 @@
+
+/* The careers section images move the associated text underneath, 
+the image is centred and the size of the images are set to a percentage
+to help fill the space in the box */
+.careersBox img{
+    width: 75%;
+    height: 75%;
+    display:block;
+    margin:auto;
+}
+
+/*The width of the careers text div is set to fill the containing div.*/
+.careersBox p{
+    width:100%;
+}
+.careersP{
+    margin-left: 0;
+    min-width:100%;
+    padding:0 0 2em 0;
+}
+
+/*margins on either side of content reduced*/
+#aimsDiv, #modulesDiv, #structureDiv,#careersDiv, #contactDiv, #moreInfoDiv{
+    margin-right:10%;
+}
+#contentMargin{
+    margin-left:9%;
+    width:91%;
+}

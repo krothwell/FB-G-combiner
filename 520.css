@@ -1,0 +1,102 @@
+/* all the text is reduced somewhat in size, all icons are resized somewhat as deemed 
+appropriate as well as a load of tweaking to margins, display properties, etc to 
+ensure that the website displays ok at the smallest of screen sizes */
+
+h1 {
+    font-size: 2em;
+}
+
+#mainHeader {
+    padding: 0.3em 0em 0.3em 1em;
+}
+
+#pageNavUL {
+    position:relative;
+    vertical-align:top;
+    margin-top:0.5vh;
+}
+
+#pageNavUL li {
+    min-width: 2.5em;
+}
+
+#socialMediaUL {
+    padding-left: 0.5em;
+}
+
+#sectMid {
+    padding-top: 0vh;
+}
+
+.articleHeader {
+    border-bottom-width:thin;
+}
+
+.dateP {
+    font-size: 0.8em;
+}
+
+.articleHeader h2 {
+    font-size: 1.3em;
+}
+
+article {
+    padding-bottom:0em;
+}
+
+.aBodyTxt {
+    font-size: 1em;
+}
+
+.commentBody {
+    padding-left: 0em;
+}
+
+.subcommentBody {
+    margin-left: 0.35em;
+    padding-left: 0.2em;
+    border-left-width: 0.1em;
+}
+
+.commentNetwork {
+    width:2em;
+}
+
+.subcommentNetwork {
+    width:1.8em;
+}
+.commentDate p {
+    margin-top: 0.2em;
+    display: block;
+    margin-right: 0.8em;
+}
+
+.subcommentDate p {
+    margin-top: 0.2em;
+    display: block;
+    margin-right: 0.8em;
+}
+
+.commentProfile img{
+    width: 2.5em;
+    border-radius: 50%;
+    margin-left: 0.5em;
+}
+
+.subcommentProfile img{
+    width: 2em;
+    border-radius: 50%;
+    margin-left: 0.5em;
+}
+
+.commentTxt p {
+    font-size: 0.98em;
+}
+
+.commentTxt .writerP {
+    font-size: 0.98em;
+}
+
+.headerAnchor{
+    bottom:10vh;
+}

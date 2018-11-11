@@ -1,0 +1,21 @@
+/*Minor changes to comments which move the comment text under the other 
+comment elements and help comments display more clearly at this size */
+
+.commentBody {
+    margin-bottom: 1.3em;
+    
+}
+
+.commentDate {
+    width:auto;
+}
+
+.commentDate p {
+    margin-top: 1em;
+    display: inline-block;
+    margin-right: 1em;
+}
+
+.commentTxt {
+    width: 95%
+}

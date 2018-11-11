@@ -1,0 +1,473 @@
+/* Default styles for all html elements */
+
+/* http://meyerweb.com/eric/tools/css/reset/ 2. v2.0 | 20110126
+  License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+  display: block;
+}
+body {
+  line-height: 1;
+    background-color:#384347;
+}
+
+ol, ul {
+  list-style: none;
+}
+blockquote, q {
+  quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+  content: '';
+  content: none;
+}
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+*,
+*:before,
+*:after {
+  -webkit-box-sizing: border-box;
+     -moz-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+h1 {
+    font-family: "Arial Black", Gadget, sans-serif;
+    font-size: 3.5em;
+    bottom:0.02em;
+    width:100%;
+    color:azure;
+    line-height:1.42em;
+}
+
+/*
+h1 span and main Img was originally used for a different design, the css has
+been kept as comment in case of reinstatement
+h1 span{
+    background: rgb(0, 0, 0); /* fallback color *//*
+    background: rgba(0, 0, 0, 0.6);
+    letter-spacing: 0.1em;
+    padding-left:0.2em;
+    padding-right:0.2em;
+}
+
+#mainImg{
+    max-height:45vh;
+    max-width:100%;
+    min-width:100%;
+    display:inline-block;
+}*/
+
+#mainHeader {
+    min-width:100%;
+	position:relative;
+    background-color: #21292B;
+    padding: 1em 0em 1em 2em;
+    bottom:auto;
+}
+
+nav {
+    height:5vh;
+    background-color:#384347;
+    display:block;
+    width:100%;
+    z-index: 5;
+    min-height:2.5em;
+    text-align: center;
+    
+}
+
+nav ul {
+    display: inline-block;
+}
+
+nav button {
+    background: none;
+    border: none;
+    cursor:pointer;
+}
+
+#socialMediaUL {
+    padding-left: 2vh;
+    float:left;
+}
+
+#pageNavUL {
+    position:relative;
+    vertical-align:top;
+    margin-top:0.5vh;
+    margin-right: 8%;
+}
+
+#pageNavUL li {
+    min-width: 2em;
+    vertical-align:top;
+    cursor:pointer;
+}
+
+#pageNavUL li #prevA {
+    display:none;
+}
+
+#pageNavUL li #returnA {
+}
+
+
+#socialMediaUL {
+    padding-left: 2em;
+}
+
+nav li{
+    position:relative;
+    height:4vh;
+    width:4vh;
+    display:inline-block;
+    margin-top: 0.5vh;
+    min-height:2.3em;
+    min-width:2.3em;
+}
+
+nav img {
+    width:100%;
+}
+
+section {
+    background-color:#667D85;
+    z-index:4;
+}
+
+#sectMid {
+    width:55%;
+    padding-top: 5vh;
+    background-color:white;
+    margin-left:auto;
+    margin-right:auto;
+    padding-left:0.5em;
+    padding-right: 0.5em;
+    min-height:100vh;
+}
+
+#dateTime { 
+    display:block;
+}
+
+.dateP {
+    color:cadetblue;
+}
+
+.dateP, .timeP {
+    display: inline-block;
+    font-family: "arial", sans-serif;
+    margin-bottom:0.2em;
+}
+
+.timeP {
+    margin-left:1em;
+    font-size: 0.8em;
+    color:cadetblue;
+}
+
+article {
+    padding-bottom:2.5em;
+    position:relative;
+}
+
+.articleBody {
+    
+}
+
+.headerAnchor{
+    display: inline-block;
+    width:100%;
+    position:relative;
+    bottom:5vh;
+}
+
+.articleHeader {
+    
+    padding: 0.7em 0.1em 0.2em 0.4em;
+    border-style:solid;
+    border-bottom-width: medium;
+    border-bottom-color: #417D91;
+}
+
+.articleHeader h2 {
+    color: #4B595E;
+    font-family: "Georgia", serif;
+    font-size: 2em;
+    width:80%;
+    display:inline-block;
+    vertical-align: top;
+}
+
+.postNetwork {
+    display:inline-block;
+    width:19%;
+    vertical-align:bottom;
+    text-align:center;
+    
+}
+
+.postNetwork img{
+    min-width: 1.5em;
+    width:35%;
+    background-color:#417D91;
+    vertical-align:bottom;
+    border-radius: 15%;
+    margin-right:0.1em;
+}
+
+.readBtn, .commentsBtn, .hideBtn {
+    text-transform:uppercase;
+    font-family: "arial", sans-serif;
+    margin-top: 1em;
+    margin-left: 1em;
+    color: deepskyblue;
+    font-weight:bolder;
+    cursor:pointer;
+    background-color:white;
+    border:none;
+    display:inline-block;
+}
+
+.hideBtn {
+    display:none;
+}
+
+/* more than one image */
+.aImgs {
+    display:block;
+    text-align:center;
+    width:100%;
+}
+
+.aImgs img{
+    padding: 0.2em 0.2em 0.2em 0em;
+    height: 6em;
+}
+
+/* one image */
+.aImg {
+    padding-top:5%;
+    padding-left: 15%;
+    padding-right:15%;
+
+}
+
+.aImg img{
+    width:100%;
+}
+
+.aBodyTxt {
+    color: #4B595E;
+    font-family: "arial", sans-serif;
+    font-size: 1.3em;
+    padding: 0.3em 0em 0em 0.3em;
+    display:inline-block;
+    vertical-align:top;
+    width: 95%;
+}
+
+.aBodyTxt p {
+
+    margin-bottom: 0.3em;
+}
+
+.aBody p {
+    
+}
+
+.commentsBtn {
+    margin-bottom:1em;
+}
+
+.commentsBody {
+    width:100%;
+    display:block;
+}
+
+.subcommentsBody {
+    width:100%;
+    display:block;
+}
+
+.commentBody {
+    vertical-align: top;
+    width: 100%;
+    margin-bottom: 0.5em;
+    padding-left: 1em;
+}
+
+.subcommentBody {
+    vertical-align: top;
+    width: 100%;
+    margin-bottom: 0.5em;
+    margin-left: 2em;
+    padding-left: 0.5em;
+    border-left-style: solid;
+    border-left-width: 0.135em;
+    border-left-color: cadetblue;
+    
+}
+
+.commentNetwork {
+    display:inline-block;
+    width:2.5em;
+    vertical-align:top;
+    padding: 0.2em 0.5em 0 0;
+}
+
+.subcommentNetwork {
+    display:inline-block;
+    width:2em;
+    vertical-align:top;
+    padding: 0.2em 0.5em 0 0;
+}
+
+.commentNetwork img{
+    width:100%;
+    background-color:cadetblue;
+    vertical-align:bottom;
+    border-radius: 15%;
+    margin-right:0.1em;
+}
+
+.subcommentNetwork img{
+    width:100%;
+    background-color:cadetblue;
+    vertical-align:bottom;
+    border-radius: 15%;
+    margin-right:0.1em;
+}
+
+.commentDate, .commentProfile {
+    display:inline-block;  
+}
+
+.subcommentDate, .subcommentProfile {
+    display:inline-block;    
+}
+
+.commentDate {
+    vertical-align:top;
+    width:20.8799%
+}
+
+.subcommentDate {
+    vertical-align:top;
+    width:20.8799%;
+}
+
+.commentDate p {
+    font-family: "arial", sans-serif;
+    display:block;
+    text-align:center;
+    margin-top:0.3em;
+    vertical-align:top;
+    
+    color:cadetblue;
+    font-size: 0.8em;
+}
+
+.subcommentDate p {
+    font-family: "arial", sans-serif;
+    display:block;
+    text-align:center;
+    margin-top:0.3em;
+    vertical-align:top;
+    
+    color:cadetblue;
+    font-size: 0.75em;
+}
+
+.commentDateP {
+    
+}
+
+.subcommentDateP {
+    
+}
+
+.commentProfile img{
+    width: 3em;
+    border-radius: 50%;
+    margin-left: 0.5em;
+}
+
+.subcommentProfile img{
+    width: 2.5em;
+    border-radius: 50%;
+    margin-left: 0.5em;
+}
+
+.commentTxt {
+    display:inline-block;
+    vertical-align:top;
+    margin-left:0.3em;
+    margin-top: 0.3em;
+    width: 60%
+}
+
+.subcommentTxt {
+    display:inline-block;
+    vertical-align:top;
+    margin-left:0.3em;
+    margin-top: 0.3em;
+    width: 53%;
+}
+
+.commentTxt .writerP {
+    font-size: 1em;
+    color: cadetblue;
+    margin: 0 0 0.2em 0;
+}
+
+.subcommentTxt .writerP {
+    font-size: 0.9em;
+    color: cadetblue;
+    margin: 0 0 0.2em 0;
+}
+
+.commentTxt p {
+    font-family: "arial", sans-serif;
+    color: #4B595E;
+    margin-left: 0.5em;
+    margin-bottom: 0.2em;
+    
+}
+
+.subcommentTxt p {
+    font-family: "arial", sans-serif;
+    color: #4B595E;
+    margin-left: 0.5em;
+    margin-bottom: 0.2em;
+    font-size: 0.9em;
+    
+}

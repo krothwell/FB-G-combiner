@@ -1,0 +1,14 @@
+/*reduce the heading text size, minor increase to the navigation bars minimum height, 
+the main change is to increase the width of the middle divider where the Posts are displayed*/
+
+h1 {
+    font-size: 2.4em;
+}
+
+nav {
+    min-height:3em;
+}
+
+#sectMid {
+    width:97%;
+}

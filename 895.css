@@ -1,0 +1,20 @@
+/*similar changes to 1035.css except for comment replies*/
+
+.subcommentBody {
+    margin-top: 1em;
+    
+}
+
+.subcommentDate {
+    width:auto;
+}
+
+.subcommentDate p {
+    margin-top: 1em;
+    display: inline-block;
+    margin-right: 1em;
+}
+
+.subcommentTxt {
+    width: 85%
+}

@@ -1,0 +1,48 @@
+/* The content margin is now completely removed and the size of high level div items set
+    to fill most of page while retaining room for left navigation */
+
+#contentMargin{
+    margin-left:0;
+    width:100%;
+}
+
+#welcomeDiv{
+    padding-left:5%;
+    padding-right:5%;
+}
+
+#welcomeNav{
+    
+    margin-right:0%;   
+}
+
+#aimsDiv, #modulesDiv, #structureDiv,#careersDiv, #contactDiv, #moreInfoDiv{
+    margin-right:0%;
+    padding: 2em 0.5em 2em 14.5em;
+
+}
+
+#welcomeImg {
+    margin-right:0em;
+}
+
+#aimsDiv p, #modulesDiv p:first-child, #structureDiv p, #careersDiv p, #contactDiv p, form, #moreInfoDiv p{
+    padding-right:0em;
+
+}
+
+#aimsDiv ul{
+    padding-left:0em;
+}
+
+#modulesDiv li, #modulesDiv p, #aimsDiv li {
+    font-size:1em;
+    margin-left:0;
+    border-style:solid;
+    border-left-width:thin;
+    border-bottom-width:thin;
+}
+
+.careersBox span{
+    padding: 1em;
+}
